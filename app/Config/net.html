@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="/action" method="post">
+    <fieldset>
+    <h4>Master Pelanggan</h4>
+    <hr>
+    <table>
+        <tr>
+            <td>Kode</td>
+            <td>
+                <input type="text" name="kode" value="" title="This field is required" background= "black"/>
+            </td>
+            <td>
+                <label for="status">Status:</label>
+                <select id="status" name="status">
+                    <option value="volvo">Aktif</option>
+                    <option value="saab">Tidak Aktif</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td>
+                <input type="text" name="nama" value="">
+            </td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>
+                <input type="text" name="alamat" value="">
+                <textarea name="alamat" id="" cols="50" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Telp</td>
+            <td>
+                <input type="text" name="telp" value="">
+            </td>
+            <td>e-mail</td>
+            <td>
+                <input type="text" name="mail" value="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="crBayar">Cara Bayar</label>
+                <select id="crBayar" name="crBayar">
+                    <option value="cash">Cash</option>
+                    <option value="tf">TF</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Lama Bayar</td>
+            <td>
+                <input type="text" name="lamabayar" value="">
+            </td>
+        </tr>
+        <tr>
+            <td>Potongan</td>
+            <td>
+                <input type="text" name="potongan" value="">
+            </td>
+        </tr>
+        <tr>
+            <td>Nominal Plafon</td>
+            <td>
+                <input type="text" name="noplafon" value="">
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <table>
+        <p>COA</p> <hr>
+        <tr>
+            <label for="noRek">Nomor Rekening </label>
+                <select id="noRek" name="noRek">
+                    <option value="aktif">Aktif</option>
+                    <option value="tdk">Tidak Aktif</option>
+                </select>
+        </tr>
+    </table>
+    <input type="submit" name="" id=""> <input type="submit">
+    </fieldset>
+</form>
+</body>
+</html>
